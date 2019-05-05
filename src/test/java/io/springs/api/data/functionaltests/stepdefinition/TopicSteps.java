@@ -23,7 +23,7 @@ public class TopicSteps {
 	String nameOfTopic = null;
 	String description = null;
 	public TopicSteps() {
-		RestAssured.baseURI = "http://localhost:8090/";
+		RestAssured.baseURI = "http://localhost:9000/";
 		RestAssured.basePath = "topics";
 	}
 	@Given("^user wants to create a topic$")

@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
     topics-courses:
         container_name: topics-server
@@ -7,4 +7,4 @@ services:
             dockerfile: Dockerfile
         image: topics-server:latest
         ports:
-            - 8090
+            - "8090"
