@@ -1,0 +1,6 @@
+Feature: 
+
+  Scenario: Test adding topics                                   [90m# io/springs/api/data/features/courseapitests.feature:3[0m
+    [32mGiven [0m[32muser wants to create a topic[0m                           [90m# TopicSteps.topicCreation()[0m
+    [32mAnd [0m[32muser creates a topic with the topic name and description[0m [90m# TopicSteps.topicNameAndDesc()[0m
+    [32mAnd [0m[32mthe topic is created successfully[0m                        [90m# TopicSteps.verifyTopicCreated()[0m

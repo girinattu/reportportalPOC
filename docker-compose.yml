@@ -1,0 +1,10 @@
+version: '2'
+services:
+    topics-courses:
+        container_name: topics-server
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: topics-server:latest
+        ports:
+            - 8090
